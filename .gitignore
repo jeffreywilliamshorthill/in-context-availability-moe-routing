@@ -1,0 +1,23 @@
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.xdv
+build*.log
+
+# Secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Claude Code local context (not part of the published artifact)
+CLAUDE.md
+.claude/

@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "In-Context Availability Reorganizes Expert Routing: A Measurement Confound for Multi-Turn Evaluations of Mixture-of-Experts Language Models"
+abstract: >-
+  In a sparse mixture-of-experts (MoE) language model the router selects a
+  small subset of experts for every token, and that selection is increasingly
+  read as an internal-state measurement. The paper shows that whether the text
+  being processed is already present verbatim in an earlier turn (in-context
+  availability) reorganizes routing at fixed token identity and fixed final
+  prompt in Qwen3.5-35B-A3B-Base, under expert sets, estimands, and decision
+  rules fixed before capture. A 2x2 factorial attributes the shift to literal
+  availability of the target; attention retrieval of the prior copy carries
+  about half of it; the set structure replicates on Qwen3.6-35B-A3B under
+  seven pre-specified predictions, yet excluding or forcing the confirmed
+  experts leaves output token-identical. Internal-state measurements taken on
+  multi-turn probes that place later target text in earlier context therefore
+  partly measure availability in addition to the capability under test.
+authors:
+  - family-names: Shorthill
+    given-names: "Jeffrey W."
+    affiliation: "Independent researcher"
+    orcid: "https://orcid.org/0009-0004-3954-2752"
+version: "1.1"
+date-released: "2026-08-24"
+doi: "10.5281/zenodo.22088887"
+license: CC-BY-4.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21892999"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.22088887"
+    description: "Version 1.1"
+url: "https://github.com/jeffreywilliamportfolio/in-context-availability-moe-routing"
+repository-code: "https://github.com/jeffreywilliamportfolio/in-context-availability-moe-routing"
+keywords:
+  - mixture-of-experts
+  - expert routing
+  - mechanistic interpretability
+  - in-context availability
+  - evaluation confound
+  - attention retrieval
+  - pre-registration
+  - teacher forcing
+preferred-citation:
+  type: article
+  title: "In-Context Availability Reorganizes Expert Routing: A Measurement Confound for Multi-Turn Evaluations of Mixture-of-Experts Language Models"
+  authors:
+    - family-names: Shorthill
+      given-names: "Jeffrey W."
+      affiliation: "Independent researcher"
+      orcid: "https://orcid.org/0009-0004-3954-2752"
+  year: 2026
+  month: 8
+  doi: "10.5281/zenodo.22088887"
+  notes: "Preprint, version 1.1 (2026-08-24). Not peer reviewed. Concept DOI 10.5281/zenodo.21892999 resolves to the latest version."
