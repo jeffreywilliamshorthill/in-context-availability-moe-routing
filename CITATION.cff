@@ -11,8 +11,12 @@ abstract: >-
   rules fixed before capture. A 2x2 factorial attributes the shift to literal
   availability of the target; attention retrieval of the prior copy carries
   about half of it; the set structure replicates on Qwen3.6-35B-A3B under
-  seven pre-specified predictions, yet excluding or forcing the confirmed
-  experts leaves output token-identical. Internal-state measurements taken on
+  seven pre-specified predictions. Version 1.2 withdraws the knockout and
+  forcing results of versions 1.0 and 1.1 (the intervention code edited router
+  logits the model did not dispatch on) and replaces them with a dispatch-verified
+  follow-up in which excluding the confirmed experts changed most outputs without
+  a detected average reduction in reuse and forcing one expert increased reuse;
+  layer 26 of the checkpoint is a trained copy of layer 14. Internal-state measurements taken on
   multi-turn probes that place later target text in earlier context therefore
   partly measure availability in addition to the capability under test.
 authors:
@@ -20,17 +24,20 @@ authors:
     given-names: "Jeffrey W."
     affiliation: "Independent researcher"
     orcid: "https://orcid.org/0009-0004-3954-2752"
-version: "1.1"
-date-released: "2026-08-24"
-doi: "10.5281/zenodo.22088887"
+version: "1.2"
+date-released: "2026-10-21"
+doi: "10.5281/zenodo.23546831"
 license: CC-BY-4.0
 identifiers:
   - type: doi
     value: "10.5281/zenodo.21892999"
     description: "Concept DOI (all versions)"
   - type: doi
+    value: "10.5281/zenodo.23546831"
+    description: "Version 1.2"
+  - type: doi
     value: "10.5281/zenodo.22088887"
-    description: "Version 1.1"
+    description: "Version 1.1 (superseded; intervention results withdrawn)"
 url: "https://github.com/jeffreywilliamportfolio/in-context-availability-moe-routing"
 repository-code: "https://github.com/jeffreywilliamportfolio/in-context-availability-moe-routing"
 keywords:
@@ -51,6 +58,6 @@ preferred-citation:
       affiliation: "Independent researcher"
       orcid: "https://orcid.org/0009-0004-3954-2752"
   year: 2026
-  month: 8
-  doi: "10.5281/zenodo.22088887"
-  notes: "Preprint, version 1.1 (2026-08-24). Not peer reviewed. Concept DOI 10.5281/zenodo.21892999 resolves to the latest version."
+  month: 10
+  doi: "10.5281/zenodo.23546831"
+  notes: "Preprint, version 1.2 (2026-10-21). Not peer reviewed. Concept DOI 10.5281/zenodo.21892999 resolves to the latest version."
