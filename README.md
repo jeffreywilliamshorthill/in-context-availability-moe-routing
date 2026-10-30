@@ -1,3 +1,5 @@
+**Research account:** this copy is published at [ec75hash/in-context-availability-moe-routing](https://github.com/ec75hash/in-context-availability-moe-routing). The [original repository](https://github.com/jeffreywilliamportfolio/in-context-availability-moe-routing) and its history remain available. [Archived paper v1.2](https://zenodo.org/records/23546831) · [Copy provenance](PUBLICATION_PROVENANCE.md).
+
 # In-Context Availability Reorganizes Expert Routing: A Measurement Confound for Multi-Turn Evaluations of Mixture-of-Experts Language Models
 
 Paper source, built PDF, and figure for **version 1.2 (October 2026)** of the paper, with the version 1.1 files kept for the record. Preprint, not peer reviewed.
