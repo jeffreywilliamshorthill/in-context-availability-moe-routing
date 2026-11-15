@@ -38,8 +38,8 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.22088887"
     description: "Version 1.1 (superseded; intervention results withdrawn)"
-url: "https://github.com/jeffreywilliamportfolio/in-context-availability-moe-routing"
-repository-code: "https://github.com/jeffreywilliamportfolio/in-context-availability-moe-routing"
+url: "https://github.com/ec75hash/in-context-availability-moe-routing"
+repository-code: "https://github.com/ec75hash/in-context-availability-moe-routing"
 keywords:
   - mixture-of-experts
   - expert routing
